@@ -5,3 +5,12 @@
 # VMware12安装顺序
 <div><a href="http://www.vmware.com/cn/products/workstation/workstation-evaluation" target="_blank">VMware官网下载12安装包</a></div>
 [keys](http://beikeit.com/post-514.html)
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    //为超链接加上target='_blank'属性
+		$('a[href^="http"]').each(function() {
+			$(this).attr('target', '_blank');
+		});
+	});
+</script>
